@@ -1,0 +1,16 @@
+[project]
+name = "sorry-site"
+entry = "index.html"
+
+[build]
+command = ""
+output = "."
+
+[server]
+port = 3000
+
+[env]
+NODE_ENV = "production"
+
+[preview]
+open = true
